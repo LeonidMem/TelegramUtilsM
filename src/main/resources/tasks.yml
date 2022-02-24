@@ -1,0 +1,9 @@
+string: 'string'
+int: 15
+long: 1099511627776
+boolean:
+  1: true
+  2: false
+
+list:
+  strings: ['1', '2', '3']
