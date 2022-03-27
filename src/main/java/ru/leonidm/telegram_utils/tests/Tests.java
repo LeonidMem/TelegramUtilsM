@@ -8,7 +8,7 @@ public class Tests {
 
     public static void main(String[] args) {
         runInternal();
-        Logger.disableRelativeThreads();
+        Logger.disableSavingThread();
     }
 
     public static void runInternal() {

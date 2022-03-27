@@ -34,10 +34,16 @@ public class Logger {
     }
 
     /**
-     * Disabled all relative to this Logger threads
+     * Disables console logger threads
      */
-    public static void disableRelativeThreads() {
-        loggerThread.disable();
+    public static void disableLoggerThread() {
+        savingThread.disable();
+    }
+
+    /**
+     * Disables file saving thread
+     */
+    public static void disableSavingThread() {
         savingThread.disable();
     }
 
